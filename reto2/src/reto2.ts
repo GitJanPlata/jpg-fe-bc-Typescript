@@ -1,24 +1,24 @@
 class Password {
     private longitud: number;
-    private contrasena: string;
+    private contraseña: string;
 
     constructor() {
         this.longitud = 8;
-        this.contrasena = this.generarContrasena();
+        this.contraseña = this.generarContraseña();
     }
 
-    private generarContrasena(): string {
+    private generarContraseña(): string {
         const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        let contrasena = '';
+        let contraseña = '';
         for (let i = 0; i < this.longitud; i++) {
             const indiceAleatorio = Math.floor(Math.random() * caracteres.length);
-            contrasena += caracteres[indiceAleatorio];
+            contraseña += caracteres[indiceAleatorio];
         }
-        return contrasena;
+        return contraseña;
     }
 }
 
 //instancia del objeto password con su mètodo para generar la contraseña
 
-let miPassword = new Password();
+miPassword = new Password();
 console.log(miPassword);

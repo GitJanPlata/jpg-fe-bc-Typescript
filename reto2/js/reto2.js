@@ -1,16 +1,16 @@
 var Password = /** @class */ (function () {
     function Password() {
         this.longitud = 8;
-        this.contrasena = this.generarContrasena();
+        this.contraseña = this.generarContraseña();
     }
-    Password.prototype.generarContrasena = function () {
+    Password.prototype.generarContraseña = function () {
         var caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        var contrasena = '';
+        var contraseña = '';
         for (var i = 0; i < this.longitud; i++) {
             var indiceAleatorio = Math.floor(Math.random() * caracteres.length);
-            contrasena += caracteres[indiceAleatorio];
+            contraseña += caracteres[indiceAleatorio];
         }
-        return contrasena;
+        return contraseña;
     };
     return Password;
 }());
