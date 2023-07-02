@@ -1,7 +1,6 @@
 var Password = /** @class */ (function () {
-    function Password(longitud) {
-        if (longitud === void 0) { longitud = 8; }
-        this.longitud = longitud;
+    function Password() {
+        this.longitud = 8;
         this.contrasena = this.generarContrasena();
     }
     Password.prototype.generarContrasena = function () {
@@ -15,6 +14,6 @@ var Password = /** @class */ (function () {
     };
     return Password;
 }());
-
-miPassword = new Password(10);
+//instancia del objeto password con su mètodo para generar la contraseña
+var miPassword = new Password();
 console.log(miPassword);

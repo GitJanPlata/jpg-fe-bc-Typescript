@@ -1,9 +1,9 @@
 
 export class Electrodomestico {
-    protected static readonly PRECIO_BASE_DEFECTO: number = 100;
-    protected static readonly COLOR_DEFECTO: string = "blanco";
-    protected static readonly CONSUMO_ENERGETICO_DEFECTO: string = "F";
-    protected static readonly PESO_DEFECTO: number = 5;
+    protected static PRECIO_BASE_DEFECTO: number = 100;
+    protected static COLOR_DEFECTO: string = "blanco";
+    protected static CONSUMO_ENERGETICO_DEFECTO: string = "F";
+    protected static PESO_DEFECTO: number = 5;
   
     protected precioBase: number;
     protected color: string;
