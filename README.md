@@ -9,9 +9,8 @@
 
 ## Reto 2
 
-![image](https://github.com/GitJanPlata/jpg-fe-bc-Typescript/assets/96839905/73cee21c-81bc-43c0-8bdd-af4ec70c10b1)
-
-![image](https://github.com/GitJanPlata/jpg-fe-bc-Typescript/assets/96839905/be547319-67bf-4f88-a2e1-48663990c189)
+![29b0f4a2c63676f50db1bfc77063084d](https://github.com/GitJanPlata/jpg-fe-bc-Typescript/assets/96839905/9ca0d8e3-0296-4a53-94d9-3d101d807eff)
+![b9fc50bfe0734ee93a21031159aa3510](https://github.com/GitJanPlata/jpg-fe-bc-Typescript/assets/96839905/75700e3b-f4ae-41f7-a0b3-1d04d857c2f8)
 
 ## Reto 3
 
